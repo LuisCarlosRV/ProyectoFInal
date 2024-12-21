@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+img {
+    height: 500px;
+    width: 500px;
+    margin: 60px;
+    transition: transform 0.5s ease; 
+}
+img:hover {
+    transform: scale(1.2); 
+  }
+#titulos{
+    margin-top: 60px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#desk {
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 60px;
+}
+#BestSeller{
+    padding-top: 1px;
+    background-color: rgb(48, 48, 48);
+    color: black;
+}
+p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
